@@ -1,0 +1,39 @@
+body{
+    background-image:linear-gradient(to right, rgb(209, 209, 194), rgb(59, 194, 160));
+}
+.login{
+    text-align: center;
+}
+
+form{
+    border: 5px solid black;
+    margin-top: 10px;
+    margin-left: 850px;
+    margin-right: 850px;
+}
+label{
+    font-size: 20px;
+}
+#botao{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#titulo
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    font-style: italic;
+    font-family: cu;
+    color: rgb(0, 0, 0);
+    margin-left: 600px;
+    margin-right: 600px;
+    text-decoration-line: none;
+}
+.logo{
+    text-align: center;
+}
+.item-lista{
+    font-size: 40px;
+    text-decoration: none;
+}
