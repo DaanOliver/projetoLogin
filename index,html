@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/iconelogin2.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Login Folha de São Paulo</title>
+</head>
+
+<body>
+    <div class="logo">
+        <h1 id="titulo">Folha de São Paulo - Local de Informação Sem Fake News</h1>
+        <img src="img/folhasp_logo.jpg" width="500px" height="300px">
+    </div>
+    <div class="login">
+        <form action="formlogin">
+            <label for="usuario">Usuario: </label><br>
+            <input type="text" name="" id="usuario"><br>
+            <label for="senha">Senha: </label><br>
+            <input type="password" name="" id="senha"><br><br>
+            <input type="button" value="Login" id="botao" onclick="validacao()">
+        </form>
+    </div>
+    <script src="js/script.js">
+    </script>
+</body>
+
+</html>
